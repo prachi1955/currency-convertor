@@ -1,16 +1,37 @@
-# currency_converter
+# Flutter Currency Converter
 
-A new Flutter project.
+A simple currency converter application built with **Flutter**.  
+This project demonstrates how to use **Material Design** (`MaterialApp`) and **iOS-style Cupertino Design** (`CupertinoApp`) within the same Flutter project.
+
+## Features
+- Currency conversion UI built using **MaterialApp**.
+- iOS-style UI built using **CupertinoApp**.
+- Clean, structured code with separate pages for Material and Cupertino widgets.
+
+## Files Included
+- **main.dart** – Entry point of the app, with both Material and Cupertino app classes.
+- **currency_convertor_material_page.dart** – UI for Material Design.
+- **currency_convertor_cupertino_page.dart** – UI for Cupertino Design.
 
 ## Getting Started
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/flutter_currency_converter.git
+Navigate to the project directory:
 
-This project is a starting point for a Flutter application.
+bash
+Copy
+Edit
+cd flutter_currency_converter
+Get Flutter dependencies:
 
-A few resources to get you started if this is your first Flutter project:
+bash
+Copy
+Edit
+flutter pub get
+Run the app:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+bash
+Copy
+Edit
+flutter run
